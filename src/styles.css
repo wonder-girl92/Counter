@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+}
+
+.App {
+    margin: auto;
+    width: 770px;
+    font-family: 'Gilroy';
+    background-color: white;
+    box-sizing: border-box;
+    height: 100vh;
+    position: relative;
+}
+
+main {
+
+}
+
+h1, h2, h3 {
+    margin-block-start: 0em;
+    margin-block-end: 0;
+    letter-spacing: 0.05em;
+}
+
+.Header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    height: 82px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.Ellipse-logo {
+    width: 50px;
+}
+
+.Head-logo-text {
+    color: #F27C0F;
+    font-weight: bold;
+    font-size: 39px;
+    width: 119px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+}
+
+.Head-menu {
+    width: 325px;
+    color: #003399;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Logo-zero {
+    text-align: center;
+}
+
+.Number {
+    height: 339px;
+    padding-top: 30px;
+    font-weight: normal;
+    font-size: 288px;
+    line-height: 339px;
+    color: #F27C0F;
+}
+
+.Buttons {
+    width: 710px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 30px 0 30px;
+}
+
+.Enlarge, .Reduce, .Update {
+    width: 200px;
+    height: 58px;
+    border-radius: 4px;
+    line-height: 58px;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Enlarge {
+    background: #003399;
+}
+
+.Reduce {
+    background: #F27C0F;
+}
+
+.Update {
+    background: #E5E5E5;
+    color: #000000;
+}
+
+footer {
+    justify-content: space-between;
+    width: 770px;
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 30px;
+    position: fixed;
+    bottom: 0;
+}
+
+.FooterLogo {
+    width: 98px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.FooterMenu {
+    width: 336px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.Copyright {
+    width: 170px;
+    padding-left: 85px;
+      }
+
