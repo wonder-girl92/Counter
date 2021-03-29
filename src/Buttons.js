@@ -1,23 +1,7 @@
 import React from 'react';
 import {useDispatch} from "react-redux";
 
-function Buttons(props) {
-
-    {/*
-        function plus() {
-            props.setCounter(props.counter + 3);
-        }
-
-        function minus() {
-            if (props.counter > 0) {
-                props.setCounter(props.counter - 2);
-            }
-        }
-
-        function reset() {
-            props.setCounter(0);
-        }
-   */ }
+function Buttons() {
 
    const dispatchP = useDispatch();
    const handlePlus = () => {

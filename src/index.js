@@ -4,7 +4,7 @@ import App from './App';
 import './styles.css';
 import {createStore} from "redux";
 import {Provider} from "react-redux";
-import counter from './Buttons.js';
+import counter from './Number';
 
 const reducer = (state, action) => {
 if (action.type==='плюс')
