@@ -4,19 +4,18 @@ import App from './App';
 import './styles.css';
 import {createStore} from "redux";
 import {Provider} from "react-redux";
-import counter from './Number';
 
-const reducer = (state, action) => {
+
+const reducer = (state=0, action) => {
 if (action.type==='плюс')
 {
-    return counter + 1;
-}
-return '0';
+    return state + 1;
+    }
 
-if (action.type === 'минус'&& counter > 0) {
-     return counter - 1;
-}
-    return '0';
+
+if (action.type === 'минус'&& state > 0) {
+     return state - 1;
+};
 
 if (action.type === 'сброс') {
     return '0'
